@@ -1,0 +1,94 @@
+﻿<!doctype html>
+<head><meta charset="utf-8"><title>RX2改修、アップグレード</title><link rel="stylesheet" href="style.css"></head>
+<body><br><h1>RX2改修、アップグレード</h1>
+<img src="Picture/DSCN5078.jpg" width=800 height=558>
+<p>2015/10/4</p>
+<p>早緑です<a href="http://yuubii.blog.so-net.ne.jp/2015-10-19-1" target="_blank">前回</a>RX2にRX1の液晶を搭載してRX2L仕様にして約一年経ちました。</p>
+<p>液晶の問題は解決しましたがもう一つRX2は問題を抱えていました。そうです。教えてください、情報ください。No.298で質問したCPU処理が</p>
+<p>常に100％になり(おそらく熱暴走)まともにパソコンを操作することができない状態でした。（調子の良い時にインターネットブラウザーで</p>
+<p>軽いサイトを閲覧するのがやっとでした、動画サイトで動画を見ると動作がガクガクで見れたものではありませんでした）</p>
+<p>SS RX2はCPUクーラーのファンがへたりやすくこのようなことになるとわかっていましたが放置していました。</p>
+<p>旧CPUクーラーを使用していた当時のWindowsエクスペリエンスの数値がこれです。（見難くてすみません）</p>
+<img src="Picture/DSCN4976.jpg" width=600 height=500>
+<p>ということで一年半以上苦しんできた持病からおさらばしようと思います。</p>
+<p>とりあえず、本体を分解します。分解については前回のレポートとDynaさんのレポートにも書かれています。</p>
+<p>まず本体裏のネジを取ります。ネジをよく見ればわかりますが、(分解等をしすぎた場合色が消えますが)一番短いネジ
+（本体にS4と書かれているところのネジ）は黄色、一番太いネジ（本体に印無し）は赤、一番数が多いネジ（S6）は青で軸にマーキングされています。</p>
+<img src="Picture/DSCN5021.jpg" width=600 height=500>
+<p>本体横のeSATA/USB端子上のネジも忘れないようにしてください。（写真のピントが合ってなくてすいません…）</p>
+<img src="Picture/DSCN5028.jpg" width=600 height=500>
+<p>あともう一つ真ん中の細長い蓋を開けコネクタを外してください（上げるだけです。）</p>
+<img src="Picture/DSCN5031.jpg" width=600 height=500>
+<img src="Picture/DSCN5030.jpg" width=600 height=500>
+<p>それで本体の裏蓋を外すことができます。<p>
+<p>分解された状態です。</p>
+<img src="Picture/DSCN4945.jpg" width=600 height=500>
+<p>ということでCPUクーラーのネジを取ります。</p>
+<p>CPUがシリコングリスで汚いので拭いてグリスを塗布し直しました。</p>
+<img src="Picture/DSCN4948.jpg" width=600 height=500>
+<img src="Picture/DSCN4961.jpg" width=600 height=500>
+<p>こちらが新しいCPUクーラーです（ヤフオクで落札しました。）</p>
+<img src="Picture/DSCN4941.jpg" width=600 height=500>
+<p>新旧CPUクーラーを並べてみました。古いCPUクーラーは埃が結構ついています。（左が新しいCPUクーラーです。）</p>
+<img src="Picture/DSCN4950.jpg" width=600 height=500>
+<p>新しいCPUクーラーを搭載しました。</p>
+<img src="Picture/DSCN4967.jpg" width=600 height=500>
+<p>RX2を組み立てて起動を確認します、RX2は起動時にファンの最大回転の音が聞こえますが音が力強く、音が前のファンと全然違います。
+そしてWindowsエクスペリエンスインデックスで計測してみると、なんとプロセッサのスコアが２倍に！</p>
+<img src="Picture/DSCN4981.jpg" width=600 height=500>
+<p>RX2を組み立てて起動を確認します、RX2は起動時にファンの最大回転の音が聞こえますが音が力強く、音が前のファンと全然違います。</p>
+<p>そしてWindowsエクスペリエンスインデックスで計測してみると、なんとプロセッサのスコアが２倍に！</p>
+<img src="Picture/DSCN4981.jpg" width=600 height=500>
+<p>更に以前教えていただいたソフトでCPUの温度を確認したところちゃんと冷却できていることを確認できました。</p>
+<img src="Picture/DSCN4989.jpg" width=600 height=500>
+<p>動画サイトで動画を見ても普通に視聴することができました。</p>
+<p>それと実はもう一つやりたいことがあったのですが実現しませんでした…</p>
+<p>それはRX2用のBluetoothモジュールの搭載です。なぜできなかったかというとなんと…</p>
+<p>モジュールと本体を繋げるコネクタが省略されていて搭載することができませんでした…</p>
+<p>モジュール買ったんですけどね…（モジュール本体を固定するところはありました）</p>
+<p>初期のRX2にはそのコネクタがあるようなので後期型RX2(特にRAMメモリーの規格がDDR3のRX2)の方はご注意ください（私のRX2の型番はTK140E/2Wです）
+（DSCN4922,DSCN4933）ということでドングルで我慢します。</p>
+<p>2015/10/16</p>
+<p>前回、CPUクーラーを丸ごと交換し、動作が重くRX2が購入初期のかなり使えるパソコンに戻りました、が
+一緒に購入したRX1/RX2用Bluetoothモジュールがなんと接続コネクタがなく使うことができませんでした…</p>
+<p>しかしなんとなくBluetoothドングルのでっぱりが気になります。</p>
+<p>ということで最後の手段ともいえる無線LAN/Bluetoothコンボカードを購入しました。</p>
+<img src="Picture/DSCN5020.jpg" width=600 height=500>
+<p>購入したminiPCI-Expressカードは汎用　Intel Centrino Winreless-N 2230 802.11b/g/n300Mbps+Bluetooth4.0(2230BNHMW)無線カードです。(amazonで購入)</p>
+<p>調べたところこの無線カードはUltrabook向けの無線カードみたいです。</p>
+<p>購入理由はBluetooth4.0が付いている無線LANカードで一番安かったからです。
+（1500円）あとこのままでは取付できないのでフルサイズ変換アダプタも同時購入しました。</p>
+<p>RX2には無線LANカードとの相性があるようでインターネットで動作が確認できた無線LANカードはIntel Centrino Wireless-N 1030、Broadcom BCM943228HMBです。</p>
+<p>もう一つ動作確認されている無線カードがありましたが相性が悪くBIOSが起動しなかったようです。</p>
+<p>ということでBIOSが起動しないリスクがありますが使える無線カードを開拓すること、それらを買うお金がなかった（こちらが本音ですｗ）のでCentrino Winreless-N 2230を買うことにしました。</p>
+<p>このような袋に入っていました。</p>
+<img src="Picture/DSCN5008.jpg" width=600 height=500>
+</p>交換する前にそのままでは取付できないので無線LANカードに変換アダプタを付けます。</p>
+<img src="Picture/DSCN5014.jpg" width=600 height=500>
+<img src="Picture/DSCN5018.jpg" width=600 height=500>
+</p>というわけで無線LANカードを交換できます。アンテナ線を取り上二つのネジを取ります。するとカードが浮きます。</p>
+<img src="Picture/DSCN5042.jpg" width=600 height=500>
+<img src="Picture/DSCN5034.jpg" width=600 height=500>
+<img src="Picture/DSCN5044.jpg" width=600 height=500>
+</p>そしてカードを差し替えネジを締めてアンテナ線を付けます。</p>
+<img src="Picture/DSCN5046.jpg" width=600 height=500>
+<img src="Picture/DSCN5048.jpg" width=600 height=500>
+<p>というわけで先ほどの分解の逆の手順で組み立てます。</p>
+<p>そして緊張の時です。これでだめならBlutooth内臓は諦めようと思いながら起動します。</p>
+<p>BIOSが起動しました。本当に良かったです。そしてOSを起動します。そしてアカウントにログインしたところ、Bluetooth側はすでにBluetoothドングル（東芝のソフトを使えるもの）で
+使用していたドライバとソフトが当たり動作しました、がWifiのドライバーが入っていないのでWifiが使えません。そこで他のパソコンでIntelのサイトからドライバーをダウンロードしパソコンに入れると動作し、インターネットを使うことができました。</p>
+<p>ちなみに物理無線LANスイッチを切ってもBluetooth通信はできます。</p>
+<img src="Picture/DSCN5049.jpg" width=600 height=500>
+<img src="Picture/DSCN5057.jpg" width=600 height=500>
+<img src="Picture/DSCN5058.jpg" width=600 height=500>
+<img src="Picture/DSCN5055.jpg" width=600 height=500>
+<p>これでBluetoothをドングル無しで使用することができます。そのちょっと前にBluetoothマウスを購入し、便利です。（ハードオフでジャンクで購入したものですが外装劣化のもので正常に使えます。）</p>
+<p>このRX2は2年前にオークションを見ている時にこのRX2を見つけ、親に頼み込みで落札してもらいました。しかし3か月ほどでCPUファンがへたりまともに使えなくなり、時々家で使ったり出かける際に使って去年液晶に線がでて液晶交換、そして今回悲願のCPUファン交換、
+更に便利にするためにWifi/Bluetoothコンボカードに換装し、かなり便利で持ち運べるパソコンになり、最近はRX2ばっかり使っています。大事に使っていこうと思います。</p>
+<img src="Picture/DSCN5072.jpg" width=600 height=500>
+<img src="Picture/DSCN5075.jpg" width=600 height=500>
+<img src="Picture/DSCN5078.jpg" width=600 height=500>
+
+
+
+<br><br><br><a href="/">戻る</a>
