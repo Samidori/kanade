@@ -6,12 +6,12 @@ body{
     font-size:larger;
     width:900px;
     margin:0 auto;
-    color:rgb(255,255,255);
-    background:rgb(0,0,0)
+    color:#fff;
+    background: midnightblue;
 }
 
 a:link:hover{
-    color:rgb(255,102,0);
+    color: orange;
 }
 
 ul{
