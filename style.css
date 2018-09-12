@@ -66,6 +66,11 @@ article {
 article　ul {
     list-style: none;
 }
+
+article figure {
+    width: 800px;
+    height: 450px;
+}
 /*===============フッター==============*/
 footer {
     color: #fff
