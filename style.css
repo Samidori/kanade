@@ -1,7 +1,7 @@
 body{
     width:900px;
     margin:0 auto;
-    color:#fff;
+    color:rgb(134, 134, 134);
     background: #000;
 }
 
@@ -22,7 +22,8 @@ ul{
 /*==============アーティクル===============*/
 article {
     border: solid 1px #fff;
-    background-color: #fff
+    background-color: #fff;
+    margin: 
 }
 
 /*===============フッター==============*/
