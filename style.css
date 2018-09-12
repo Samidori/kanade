@@ -38,9 +38,8 @@ article {
     width:900px;
     margin:0 auto;
     color: #000;
-    /*border: solid 1px #fff;*/
+    border: solid 1px #aaa;
     background-color: #aaa;
-    margin: 0 auto;
 }
 
 /*===============フッター==============*/
