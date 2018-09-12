@@ -1,7 +1,5 @@
 body{
-    width:900px;
-    margin:0 auto;
-    color:rgb(134, 134, 134);
+    
     background: #000;
 }
 
@@ -18,10 +16,16 @@ ul{
 }
 
 /*==============ヘッダー==============*/
+header {
+
+}
 
 /*==============アーティクル===============*/
 article {
-    border: solid 1px #fff;
+    width:900px;
+    margin:0 auto;
+    color:rgb(134, 134, 134);
+    /*border: solid 1px #fff;*/
     background-color: #fff;
     margin: 0 auto;
 }
