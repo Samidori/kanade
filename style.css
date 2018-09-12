@@ -7,6 +7,10 @@ h1{
     color: #b9d08b;
 }
 
+p {
+    line-height: 1.5;
+}
+
 a:link:hover{
     color: orange;
 }
@@ -17,7 +21,9 @@ ul{
 
 /*==============ヘッダー==============*/
 header {
-
+    background-color: silver;
+    border-bottom: solid 1px silver;
+    margin: 0 0 30px 0;
 }
 
 /*==============アーティクル===============*/
@@ -26,7 +32,7 @@ article {
     margin:0 auto;
     color:rgb(134, 134, 134);
     /*border: solid 1px #fff;*/
-    background-color: #fff;
+    background-color: #aaa;
     margin: 0 auto;
 }
 
