@@ -27,6 +27,7 @@ header {
 header h1 {
     width: 900;
     margin: 10px auto;
+    color: green;
 }
 /*===============ナビゲーション================*/
 nav {
