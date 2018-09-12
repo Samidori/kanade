@@ -11,10 +11,6 @@ p {
     line-height: 1.5;
 }
 
-a:link:hover{
-    color: orange;
-}
-
 /*==============ヘッダー==============*/
 header {
     background-color:  #fff;
