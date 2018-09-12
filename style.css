@@ -29,6 +29,13 @@ header h1 {
     margin: 10px auto;
     color: green;
 }
+header a {
+    color: green;
+    text-decoration: none;
+    }
+    a:hover {
+        color: orange;
+    }
 /*===============ナビゲーション================*/
 nav {
     width: 900px;
