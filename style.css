@@ -67,8 +67,9 @@ article {
     width:900px;
     margin:0 auto;
     color: #000;
-    border: solid 1px #aaa;
-    background-color: #aaa;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    background-color: #fff;
 }
 
 article　ul {
