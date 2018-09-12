@@ -1,19 +1,12 @@
-
-
-
-
-
-
-h1{
-    color: #b9d08b;
-}
-
 body{
-    font-size:18px;
     width:900px;
     margin:0 auto;
     color:#fff;
     background: #000;
+}
+
+h1{
+    color: #b9d08b;
 }
 
 a:link:hover{
